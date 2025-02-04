@@ -7,11 +7,4 @@ def reset_progress():
                 pass
     elif answer.lower() == 'no':
         return
-    # with open("fitness_tracker.txt", "w"):
-    #     pass
-    #
-    # with open("calorie_tracker.txt", "w"):
-    #     pass
-    #
-    # with open("daily_goals.txt", "w"):
-    #     pass
+
