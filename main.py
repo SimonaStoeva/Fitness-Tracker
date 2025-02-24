@@ -4,6 +4,7 @@ from log_calorie_intake import log_calorie_intake
 from view_calories import view_calories
 from set_daily_goals import set_daily_goals
 from reset_progress import reset_progress
+from encouragement import encouragement
 
 
 def main():
@@ -20,7 +21,8 @@ def main():
         print("4. View Calorie Intake")
         print("5. Reset Progress")
         print("6. Set Daily Goals")
-        print("7. Exit")
+        print("7. Encouragement")
+        print("8. Exit")
 
         # Prompt user for their choice
         choice = input("\nEnter your choice: ")
@@ -44,7 +46,10 @@ def main():
             set_daily_goals()
 
         elif choice == '7':
-            print("Thank you for using the Fitness Tracker. Stay healthy! 💪")
+            encouragement()
+
+        elif choice == '8':
+            print("Thank you for using the Fitness Tracker. Stay healthy!")
             exit()
         else:
             print("Invalid choice, please try again.")
