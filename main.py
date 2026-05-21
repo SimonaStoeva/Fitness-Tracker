@@ -14,7 +14,7 @@ def main():
     print("Welcome to the Personal Fitness Tracker System 🏋️‍♂️\n")
 
     while True:
-        # Display menu options
+
         print("1. Log Workout")
         print("2. Log Calorie Intake")
         print("3. View Workouts")
@@ -24,7 +24,6 @@ def main():
         print("7. Encouragement")
         print("8. Exit")
 
-        # Prompt user for their choice
         choice = input("\nEnter your choice: ")
 
         if choice == '1':
